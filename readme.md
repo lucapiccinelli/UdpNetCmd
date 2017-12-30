@@ -1,9 +1,9 @@
-Extremely simple console program to send and receive udp
+<b>Extremely simple console program to send and receive udp</b>
 
-Launch with:
+<b>Launch with</b>:
 NetCmd "Remote receiver Ip address" "Remote receiver Port" "Port to open on localhost" [Number Of Times the message will be repeated] [Sleep milliseconds between each message replication]
 
-Examples:
+<b>Examples</b>:
 
 NetCmd 192.168.0.123 1000 90 --> Will send messages to 192.168.0.123 on port 1000. Omitting number of replications and sleep between replication, defaults to 1 and 0 respectively.
 
